@@ -17,7 +17,6 @@
 
 [Discontinued] [Flappy Bird](https://github.com/benjaminberger2008/Flappy-Bird) - A Flappy Bird clone made in WinForms.
 # Languages
-![C#](https://shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp)
-
+![Static Badge](https://img.shields.io/badge/csharp-black?style=for-the-badge&label=c%23&labelColor=512bd4)
 
 [Games portfolio](https://drdinnerbone.itch.io/)
