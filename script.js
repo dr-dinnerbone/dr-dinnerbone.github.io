@@ -3,13 +3,11 @@ const counterElement = document.getElementById("views");
 let count = 248102; 
 
 function updateCounter() {
-    const randomIncrement = Math.floor(Math.random() * 7) + 1;
-    count += randomIncrement;
+    count++;
 
     counterElement.textContent = count.toLocaleString();
 
-    const randomDelay = 1;
-    setTimeout(updateCounter, randomDelay);
+    setTimeout(updateCounter, 1);
 }
 
 updateCounter();
