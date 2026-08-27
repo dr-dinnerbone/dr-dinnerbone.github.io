@@ -33,25 +33,25 @@ a:hover {
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     
-    border-bottom: 5px solid #242424;
+    border-bottom: 1px solid #242424;
 }
 .nav-container {
     width: 100%;
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 20px 64px;
+    max-width: 1080px;  
+    margin: 0 auto;     
+    padding: 12px 20px; 
     position: relative;
     
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 .logo {
     position: absolute;
-    left: 64px;
+    left: 20px;
     text-decoration: none;
     font-weight: bold;
-    color: #E5E7EB;
+    color: #ffffff;
     display: inline-flex;
     align-items: center;
 }
@@ -71,6 +71,11 @@ a:hover {
 #nav-links a:hover {
     color: #FF6B6B !important;
 }
+#nav-links {
+    display: flex;
+    gap: 30px; 
+    margin-left: auto; 
+}
 .logo::after {
     content: "";
     display: inline-block;
@@ -80,6 +85,12 @@ a:hover {
     margin-left: 6px;
     
     animation: cursor 1s steps(1) infinite;
+}
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 20px;
 }
 @keyframes cursor {
     0%, 100% {
