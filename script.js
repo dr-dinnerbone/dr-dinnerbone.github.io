@@ -1,13 +1,13 @@
-const counterElement = document.getElementById("views");
+const viewElement = document.getElementById("views");
 
 let count = 248102; 
 
-function updateCounter() {
+function updateViews() {
     count++;
 
-    counterElement.textContent = count.toLocaleString();
+    viewElement.textContent = count.toLocaleString();
 
-    setTimeout(updateCounter, 1);
+    setTimeout(updateViews, 1);
 }
 
-updateCounter();
+updateViews();
